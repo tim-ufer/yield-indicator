@@ -1,0 +1,10 @@
+{
+    "Name": "Yield Indicator",
+    "Author": "Itagane",
+    "Version": "1.0.0",
+    "Description": "Displays icons above buildings to indicate which and how many machines inside have output ready. Works for jars, kegs, plant pots & more!",
+    "UniqueID": "Itagane.Yield_Indicator",
+    "EntryDll": "Yield_Indicator.dll",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": []
+  }

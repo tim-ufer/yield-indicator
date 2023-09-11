@@ -1,0 +1,8 @@
+C:\Users\Tim\CodingProjects\StardewMod\Yield_Indicator\bin\Debug\net5.0\Yield_Indicator.deps.json
+C:\Users\Tim\CodingProjects\StardewMod\Yield_Indicator\bin\Debug\net5.0\Yield_Indicator.dll
+C:\Users\Tim\CodingProjects\StardewMod\Yield_Indicator\obj\Debug\net5.0\Yield_Indicator.csproj.AssemblyReference.cache
+C:\Users\Tim\CodingProjects\StardewMod\Yield_Indicator\obj\Debug\net5.0\Yield_Indicator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tim\CodingProjects\StardewMod\Yield_Indicator\obj\Debug\net5.0\Yield_Indicator.AssemblyInfoInputs.cache
+C:\Users\Tim\CodingProjects\StardewMod\Yield_Indicator\obj\Debug\net5.0\Yield_Indicator.AssemblyInfo.cs
+C:\Users\Tim\CodingProjects\StardewMod\Yield_Indicator\obj\Debug\net5.0\Yield_Indicator.csproj.CoreCompileInputs.cache
+C:\Users\Tim\CodingProjects\StardewMod\Yield_Indicator\obj\Debug\net5.0\Yield_Indicator.dll
