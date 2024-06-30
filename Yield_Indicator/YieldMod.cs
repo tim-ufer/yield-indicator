@@ -62,7 +62,7 @@ namespace Yield_Indicator
 
             if (Context.IsMainPlayer)
             {
-                Utility.ForAllLocations((GameLocation loc) =>
+                Utility.ForEachLocation((GameLocation loc) =>
                 {
                     if (!loc.IsOutdoors || loc.IsFarm)
                     {
@@ -72,6 +72,7 @@ namespace Yield_Indicator
                             locationContents[loc.NameOrUniqueName] = locDict;
                         }
                     }
+                    return true;
                 });
             }
             else
@@ -124,7 +125,7 @@ namespace Yield_Indicator
                 if (pair.Value is IndoorPot pot && pot.hoeDirt.Value.readyForHarvest())
                 {
                     //this.Monitor.Log($"----------------{loc.Name} {pot.hoeDirt.Value.crop.indexOfHarvest}---------------", LogLevel.Debug);
-                    var cropName = new StardewValley.Object(parentSheetIndex:pot.hoeDirt.Value.crop.indexOfHarvest.Value, 0).Name;
+                    var cropName = new StardewValley.Object(pot.hoeDirt.Value.crop.indexOfHarvest.Value, 0).Name;
                     //this.Monitor.Log($"{cropName}", LogLevel.Debug);
                     
                     if (dict.ContainsKey(cropName))
@@ -158,7 +159,7 @@ namespace Yield_Indicator
                 if (terrain.Value is HoeDirt dirt && dirt.readyForHarvest())
                 {
                     //this.Monitor.Log($"{terrain.Value.GetType().Name} : Harvst_index={dirt.crop.indexOfHarvest.Value}", LogLevel.Debug);
-                    var cropName = new StardewValley.Object(parentSheetIndex:dirt.crop.indexOfHarvest.Value, 0).Name;
+                    var cropName = new StardewValley.Object(dirt.crop.indexOfHarvest.Value, 0).Name;
                     //this.Monitor.Log($"{cropName}", LogLevel.Debug);
                     
                     if (dict.ContainsKey(cropName))
@@ -172,10 +173,10 @@ namespace Yield_Indicator
                     
                 }
                 
-                if (terrain.Value is FruitTree tree && tree.fruitsOnTree.Value == FruitTree.maxFruitsOnTrees)
+                if (terrain.Value is FruitTree tree && tree.fruit.Count == FruitTree.maxFruitsOnTrees)
                 {
                     //this.Monitor.Log($"{terrain.Value.GetType().Name} : Fruit_index={tree.indexOfFruit.Value}, Fruits={tree.fruitsOnTree.Value}", LogLevel.Debug);
-                    var fruitName = new StardewValley.Object(parentSheetIndex:tree.indexOfFruit.Value, 0).Name;
+                    var fruitName = tree.fruit.Name;
                     //this.Monitor.Log($"{fruitName}", LogLevel.Debug);
 
                     if (dict.ContainsKey(fruitName))

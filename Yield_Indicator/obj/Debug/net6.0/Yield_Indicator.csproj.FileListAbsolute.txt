@@ -1,0 +1,8 @@
+/home/tim/CodingProjects/StardewMod/Yield_Indicator/obj/Debug/net6.0/Yield_Indicator.csproj.AssemblyReference.cache
+/home/tim/CodingProjects/StardewMod/Yield_Indicator/obj/Debug/net6.0/Yield_Indicator.GeneratedMSBuildEditorConfig.editorconfig
+/home/tim/CodingProjects/StardewMod/Yield_Indicator/obj/Debug/net6.0/Yield_Indicator.AssemblyInfoInputs.cache
+/home/tim/CodingProjects/StardewMod/Yield_Indicator/obj/Debug/net6.0/Yield_Indicator.AssemblyInfo.cs
+/home/tim/CodingProjects/StardewMod/Yield_Indicator/obj/Debug/net6.0/Yield_Indicator.csproj.CoreCompileInputs.cache
+/home/tim/CodingProjects/StardewMod/Yield_Indicator/bin/Debug/net6.0/Yield_Indicator.deps.json
+/home/tim/CodingProjects/StardewMod/Yield_Indicator/bin/Debug/net6.0/Yield_Indicator.dll
+/home/tim/CodingProjects/StardewMod/Yield_Indicator/obj/Debug/net6.0/Yield_Indicator.dll

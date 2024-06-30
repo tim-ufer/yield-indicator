@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tim\\CodingProjects\\StardewMod\\Yield_Indicator\\Yield_Indicator.csproj": {}
+    "/home/tim/CodingProjects/StardewMod/Yield_Indicator/Yield_Indicator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tim\\CodingProjects\\StardewMod\\Yield_Indicator\\Yield_Indicator.csproj": {
+    "/home/tim/CodingProjects/StardewMod/Yield_Indicator/Yield_Indicator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tim\\CodingProjects\\StardewMod\\Yield_Indicator\\Yield_Indicator.csproj",
+        "projectUniqueName": "/home/tim/CodingProjects/StardewMod/Yield_Indicator/Yield_Indicator.csproj",
         "projectName": "Yield_Indicator",
-        "projectPath": "C:\\Users\\Tim\\CodingProjects\\StardewMod\\Yield_Indicator\\Yield_Indicator.csproj",
-        "packagesPath": "C:\\Users\\Tim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tim\\CodingProjects\\StardewMod\\Yield_Indicator\\obj\\",
+        "projectPath": "/home/tim/CodingProjects/StardewMod/Yield_Indicator/Yield_Indicator.csproj",
+        "packagesPath": "/home/tim/.nuget/packages/",
+        "outputPath": "/home/tim/CodingProjects/StardewMod/Yield_Indicator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tim\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/tim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Pathoschild.Stardew.ModBuildConfig": {
               "target": "Package",
@@ -49,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.130/RuntimeIdentifierGraph.json"
         }
       }
     }

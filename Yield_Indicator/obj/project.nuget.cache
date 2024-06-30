@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "z6CuM42jm4wWXlapHkQnLSv74ngNxPtgmjcrFW56j4/Eqy7dCwu99BvbmSD0yTkqDrqC31/QK7pOSmLcmYdShg==",
+  "dgSpecHash": "7UpRfcPRDd1xaiRwQl8UX6f4M1X9cZFbkZAkJv+ptXCJiKdMDz4P6kXTdO6tdny+LiANTAQ2UB8m5gOaV9Iu6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tim\\CodingProjects\\StardewMod\\Yield_Indicator\\Yield_Indicator.csproj",
+  "projectFilePath": "/home/tim/CodingProjects/StardewMod/Yield_Indicator/Yield_Indicator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tim\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+    "/home/tim/.nuget/packages/pathoschild.stardew.modbuildconfig/4.1.1/pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
   ],
   "logs": []
 }
